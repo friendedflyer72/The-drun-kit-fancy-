@@ -60,10 +60,10 @@ function sound(key) {
 }
 
 function animation(currentKey) {
-    var activeButton = document.querySelector("." + currentKey);
-    activeButton.classList.add("animation");
-
-    setTimeout(function() {
-        activeButton.classList.remove("animation");
-    }, 100);
+  var activeButton = document.querySelector("." + currentKey);
+  activeButton.classList.add("animation");
+  
+  setTimeout(function() {
+    activeButton.classList.remove("animation");
+  }, 100);
 }
