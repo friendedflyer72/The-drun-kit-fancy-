@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    background-color: rgb(35, 157, 228);
+}
+
+h1 {
+    font-size: 5rem;
+    color: #fae174;
+    font-family: cursive;
+    text-shadow: 3px 0 #F50057;
+}
+
+.w {
+    background-image: url("images/piano.png");
+}
+
+.a {
+    background-image: url("images/guitar.png");
+}
+
+.s {
+    background-image: url("images/trumpet.png");
+}
+
+.d {
+    background-image: url("images/drum.png");
+}
+
+.j {
+    background-image: url("images/voilin.png");
+}
+
+.k {
+    background-image: url("images/electronic_guitar.png");
+}
+
+.l {
+    background-image: url("images/bell.png");
+}
+
+.all {
+    margin: 10% auto;
+}
+
+.animation {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.button {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 0rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #ffffff00;
+    border-radius: 50px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(251, 78, 78);
+}
